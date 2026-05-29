@@ -1,0 +1,6 @@
+{
+  "name": "AI Chatbot",
+  "description": "A real-time, responsive Gemini-powered chatbot with message persistence, session switching, and material-polish styling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

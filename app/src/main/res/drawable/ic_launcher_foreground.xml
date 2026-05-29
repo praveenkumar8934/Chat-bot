@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Glow / Subtle Shadow -->
+    <path
+        android:fillColor="#15FFFFFF"
+        android:pathData="M54,22 C34.5,22 20,33.5 20,50 C20,58.5 24.5,65.5 30,71 L26,86 L43,81 C46.5,82.5 50.5,83 54,83 C73.5,83 88,71.5 88,50 C88,33.5 73.5,22 54,22 Z" />
+        
+    <!-- Main Chat Bubble with Linear Gradient -->
+    <path
+        android:pathData="M54,24 C36.5,24 23,34.5 23,50 C23,58 27,64.5 32,69.5 L29,83 L45,78 C48,79.2 51,80 54,80 C71.5,80 85,69.5 85,50 C85,34.5 71.5,24 54,24 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="24"
+                android:endX="54"
+                android:endY="80"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#C084FC" />
+                <item android:offset="1.0" android:color="#6366F1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Gemini Sparkle Style Star in the Center -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,38 C54,45 59,50 66,50 C59,50 54,55 54,62 C54,55 49,50 42,50 C49,50 54,45 54,38 Z" />
+
+    <!-- A smaller companion bubble to add depth -->
+    <path
+        android:fillColor="#818CF8"
+        android:pathData="M74,68 C74,66 75.5,64.5 77.5,64.5 C79.5,64.5 81,66 81,68 C81,70 79.5,71.5 77.5,71.5 C75.5,71.5 74,70 74,68 Z" />
+</vector>
